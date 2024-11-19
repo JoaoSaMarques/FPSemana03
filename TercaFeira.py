@@ -16,3 +16,7 @@ def Invert(frase):
 frase = "Esta é uma frase de exemplo"
 frase_invertida = Invert(frase)
 print(frase_invertida)  # Saída: "exemplo de frase uma é Esta"
+
+fraseInput =  input()
+frase_invertida = Invert(fraseInput)
+print(frase_invertida)
