@@ -7,3 +7,8 @@ def Invert(frase):
         stack.append(palavra)
         
     frase_invertida = []
+    
+    while stack:
+        frase_invertida.append(stack.pop()) 
+    
+    return " ".join(frase_invertida)
