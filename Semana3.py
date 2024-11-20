@@ -1,10 +1,18 @@
 from collections import deque
 
+#no def
+stack = deque()
+print(stack)
+stack.append(5)
+print(stack)
+
+#def
 def gualter():
     print("HEWO")
     
 print(gualter())
 
+#Math
 def square2(array_of_values):
     ret = []
     for value in array_of_values:
